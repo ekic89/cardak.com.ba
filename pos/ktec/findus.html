@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<style>
+	body {
+    background: url('bilder/zielgruppebgr.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	}
+	
+	
+    .links1 a:link
+	{
+		color:white;
+	}
+	.links1 a:visited
+	{
+		color:white;
+	}
+    .links1 a:hover
+	{
+		color:red;
+		font-size:160%;
+	}
+	.links1 a:active
+	{
+		color:white;
+	}
+	</style>
+  </head>
+  <body>
+	
+	<div class="column">
+	
+	<div class="row offset-lg-3" style="margin-top:3%">
+	
+		<a class="btn btn-lg" href="index.html" role="button" style="background-color:#F64938;color:white;font-weight:bold;border-radius:25px;">Home</a>
+		<a class="btn btn-lg" href="ktecpage.html" role="button" style="background-color:#F64938;color:white;font-weight:bold;border-radius:25px;margin-left:3%">KTEC</a>
+		<a class="btn btn-lg" href="news.html" role="button" style="background-color:#F64938;color:white;font-weight:bold;border-radius:25px;margin-left:3%">News</a>
+		<a class="btn btn-lg" href="bluesign.html" role="button" style="background-color:#F64938;color:white;font-weight:bold;border-radius:25px;margin-left:3%">Bluesign</a>
+		<a class="btn btn-lg" href="gaschefts.html" role="button" style="background-color:#F64938;color:white;font-weight:bold;border-radius:25px;margin-left:3%">Find Us</a>
+		
+	</div>
+	
+	<img class="img-flex" src="bilder/ktecnovi.png" style="position:absolute; top:6%; right:7%; max-width:12%">
+	
+	<div class="row">
+					<nav class="navbar navbar-inverse hidden-lg-up">
+						  <div class="container-fluid">
+						  <div class="navbar-header">
+							  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="background-color:#F64938;">
+							  <a class="navbar-brand" href="#" style="background-color:#F64938;"> KTEC </a>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>                        
+							  </button>
+							  </div>
+							<div class="collapse navbar-collapse" id="myNavbar">
+							  <ul class="nav navbar-nav">
+								<li class="active">
+								<a class="btn btn-md" href="index.html" role="button" style="background-color:#F64938;color:white;font-weight:bold;border-radius:25px;">Home</a>
+		</li>
+								<li>
+								<a class="btn btn-md" href="ktecpage.html" role="button" style="background-color:#F64938;color:white;font-weight:bold;border-radius:25px;">KTEC</a>
+		</li>
+		<li>
+							<a class="btn btn-md" href="news.html" role="button" style="background-color:#F64938;color:white;font-weight:bold;border-radius:25px;">News</a>
+			</li>
+								<li>
+								<a class="btn btn-md" href="bluesign.html" role="button" style="background-color:#F64938;color:white;font-weight:bold;border-radius:25px;">Bluesign</a>
+		</li>
+								<li>
+							<a class="btn btn-md" href="gaschefts.html" role="button" style="background-color:#F64938;color:white;font-weight:bold;border-radius:25px;">Find Us</a>
+			</li>
+							  </ul>
+							</div>
+						  </div>
+				</nav>
+			</div>
+	<div class="row offset-lg-3 offset-md-2 offset-sm-2 col-sm-8 col-md-5 justify-content-center" style="margin-top:6%;">
+	<h3 style="color:white">HERZLICH WILLKOMMEN BEI ATHLETICUM, IHREM HOME OF SPORTS</h3>
+	<h4 style="color:white">
+Online und in unseren 24 Stores erwartet Sie ein umfassendes Angebot - direkt aus dem home of sports! Bei uns finden Sie neben funktioneller Bekleidung, Ausrüstung und Schuhen für diverse Sportarten auch hochwertiges Outdoor-Equipment in einer riesen Auswahl für die ganze Familie.
+
+Wir wünschen Ihnen viel Vergnügen beim nächsten sportlichen Abenteuer!</h4>
+	</div>
+	<div class="row offset-lg-3 offset-md-2 offset-sm-2 col-sm-8 col-md-5 justify-content-center" style="margin-top:6%;">
+		
+		
+		<h1 style="color:white"><b>	Geschäft Finden</b></h1>
+		
+		
+		<div id="map_canvas" style="height: 350px; width: 100%"></div>
+
+		<!-- <div class="d-flex">
+		
+		<form class="google-maps-router" action="http://www.athleticum.ch/de/storefinder/direction/redirect/" method="get" target="_blank">
+                <ul>
+                    <li>
+                        <h2 class="legend">Ihre Anfahrt (mit ÖV oder Auto)</h2>
+                    </li>
+                    <li>
+                        <label  for="saddr">Ihre Adresse (Start Adresse)</label>
+                        <input  id="saddr"  class="input-text uniform-input text" type="text" name="saddr" value="" />
+                    </li>
+                    <li>
+                        <label  for="daddr">Unser Store (Ziel Adresse)</label>
+                        <select id="daddr"  name="daddr">
+                                                                                            <option id="daddr-store-28" value="athleticum Sportmarkets AG, , Langgasse 40, Baar 6340">Baar</option>
+                                                                                            <option id="daddr-store-4" value="athleticum Sportmarkets AG, , Leimgrubenweg 27, Basel 4053">Basel</option>
+                                                                                            <option id="daddr-store-21" value="athleticum Sportmarkets AG, EKZ Wankdorf Center, Papiermühlestrasse 85, Bern 3014">Bern-Wankdorf</option>
+                                                                                            <option id="daddr-store-33" value="athleticum Sportmakets AG, , Tissot Arena, Länggasse, Biel 2504">Biel</option>
+                                                                                            <option id="daddr-store-10" value="athleticum Sportmarkets AG, , Rue de l’Industrie 68, Bussigny 1030">Bussigny</option>
+                                                                                            <option id="daddr-store-3" value="athleticum Sportmarkets AG, , Wiesentalstrasse 98, Chur 7000">Chur</option>
+                                                                                            <option id="daddr-store-20" value="athleticum Sportmarkets AG, , Entre-deux-Fossaux, Collombey 1868">Collombey</option>
+                                                                                            <option id="daddr-store-26" value="athleticum Sportmarkets AG, , Route de Bassin 6, Conthey 1964">Conthey</option>
+                                                                                            <option id="daddr-store-19" value="athleticum Sportmarkets AG, , Riedstrasse 3, Dietikon 8953">Dietikon</option>
+                                                                                            <option id="daddr-store-12" value="athleticum Sportmarkets AG, , Industriestrasse 29, Dietlikon 8305">Dietlikon</option>
+                                                                                            <option id="daddr-store-15" value="athleticum Sportmarkets AG, , Seetalplatz, Emmenbrücke 6020">Emmenbrücke</option>
+                                                                                            <option id="daddr-store-9" value="athleticum Sportmarkets AG, , Blüemlisalpstrasse 36, Heimberg 3627">Heimberg</option>
+                                                                                            <option id="daddr-store-14" value="athleticum Sportmarkets AG, , Wässeristrasse 40, Hinwil 8340">Hinwil</option>
+                                                                                            <option id="daddr-store-25" value="athleticum Sportmarkets AG, , Rue de Genève 33, Lausanne 1003">Lausanne-Flon</option>
+                                                                                            <option id="daddr-store-5" value="athleticum Sportmarkets AG, , Ch. de Riantbosson 7, Meyrin 1217">Meyrin-Genf</option>
+                                                                                            <option id="daddr-store-22" value="athleticum Sportmarkets AG, , Gewerbehaus Eichenstrasse 4a, Pfäffikon 8808">Pfäffikon</option>
+                                                                                            <option id="daddr-store-23" value="athleticum Sportmarkets AG, , Via Serrai 10, S.Antonino 6592">S.Antonino</option>
+                                                                                            <option id="daddr-store-16" value="athleticum Sportmarkets AG, , Fulacherhalde 4, Schaffhausen 8207">Schaffhausen</option>
+                                                                                            <option id="daddr-store-13" value="athleticum Sportmarkets AG, , Gaiserwaldstrasse 7, St. Gallen 9015">St. Gallen</option>
+                                                                                            <option id="daddr-store-11" value="athleticum Sportmarkets AG, , Bernstrasse Ost 49, Suhr 5034">Suhr</option>
+                                                                                            <option id="daddr-store-24" value="athleticum Sportmarkets AG, Centre commercial Fribourg-Sud, Rte. de Moncor 1, Villars-sur-Glâne 1752">Villars-sur-Glâne</option>
+                                                                                            <option id="daddr-store-17" value="athleticum Sportmarkets AG, , Industrie Grüzefeldstrasse 49, Winterthur 8404">Winterthur</option>
+                                                                                            <option id="daddr-store-29" value="athleticum Sportmarkets SA, , En Chamard 46A, Montagny-près-Yverdon 1442">Yverdon</option>
+                                                                                            <option id="daddr-store-27" value="athleticum Sportmarkets AG, , Gessnerallee 3-5, Zürich 8001">Zürich</option>
+                                                    </select>
+                    </li>
+                    <li>
+                        <button class="button btn black-btn " type="submit">
+                            Route berechnen                            <b class="fa fa-caret-right"></b>
+                        </button>
+                    </li>
+                </ul>
+            </form>
+		
+		</div>-->
+	</div>
+	
+	
+	<div class="column offset-lg-1 offset-md-2 offset-sm-2 col-sm-8 col-md-5 col-lg-6 links1" style="margin-top:6%">
+	
+	</div>
+	
+	</div>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWSgEFm_we2Z1eD2TDD_rzyiNTJB2rT0s" type="text/javascript"></script>
+	<script>
+	StoreFinder = {};
+StoreFinder.markers = [];
+StoreFinder.stores = [];
+StoreFinder.infoWindows = [];
+StoreFinder.location = [];
+StoreFinder.details;
+StoreFinder.icon;
+StoreFinder.shadow;
+StoreFinder.zoom = 7;
+StoreFinder.map = null;
+
+StoreFinder.initialize  = function (stores) {
+    var latlng = new google.maps.LatLng(StoreFinder.location[0],StoreFinder.location[1]);
+    if (isNaN(StoreFinder.location[0]) || isNaN(StoreFinder.location[1]) ){
+        var latlng = new google.maps.LatLng(46.874979,8.237);
+    }
+    var myOptions = {
+      zoom: StoreFinder.zoom,
+      center: latlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    StoreFinder.map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+    var infoWindow = new google.maps.InfoWindow({
+        content: "holding..."
+    });
+
+    for (var i=0; i<stores.length; i++) {
+        var store = stores[i];
+
+        var contentString = '<div><p>' + store.address1 + '<br/>';
+
+        if (store.address2) {
+            contentString += store.address2 + '<br/>';
+        }
+        contentString +=  store.street + '<br/>';
+        contentString +=  store.zipcode + ' ' + store.city + '<br/>';
+        contentString += '<a href="' + store.url + '">'+StoreFinder.details+'</a></div>';
+
+        StoreFinder.markers[store.id] = new google.maps.Marker({
+              position: new google.maps.LatLng(store.latitude, store.longitude),
+              title: store.name,
+              clickable: true,
+              map: StoreFinder.map,
+              icon: StoreFinder.icon,
+              shadow: StoreFinder.shadow
+        });
+        StoreFinder.markers[store.id].contentString = contentString;
+
+        google.maps.event.addListener(StoreFinder.markers[store.id], 'click', function() {
+            infoWindow.setContent(this.contentString);
+            infoWindow.open(StoreFinder.map, this);
+        });
+
+        google.maps.event.addListener(StoreFinder.map, 'zoom_changed', function() {
+            infoWindow.setContent(this.contentString);
+            infoWindow.open(StoreFinder.map, this);
+        });
+    }
+};
+
+StoreFinder.addClickEvents  = function () {
+    jQuery('.store-link[rel="nofollow"]').click(function() {
+
+        var i= jQuery(this).attr('id').substr(11);
+
+        jQuery('.store-link').removeClass('active');
+        jQuery('.store-details').hide();
+        jQuery(this).addClass('active');
+        jQuery('#store-detail-'+i).fadeIn();
+        google.maps.event.trigger(StoreFinder.markers[i], "click");
+
+        var finishRouteSelect = jQuery('.google-maps-router ul li #daddr');
+
+        finishRouteSelect.children().removeAttr("selected");
+        finishRouteSelect.find("#daddr-store-" + i).attr("selected", "selected");
+
+        finishRouteSelect.uniform.update();
+
+        return false;
+    });
+}
+
+StoreFinder.findStores  = function () {
+    jQuery(".please-wait").show();
+    var zipcode = jQuery("#storefinder_form #zipcode").val();
+    var url     = jQuery("#storefinder_form").attr("action");
+
+    jQuery.ajax({
+        type: "GET",
+        url:  url,
+        data: {
+            zipcode: zipcode,
+            limit: '5'
+        },
+        success: function(data)
+        {
+            var data = jQuery.parseJSON(data);
+            jQuery(".please-wait").hide();
+            jQuery("#store-list").html(data.list);
+            jQuery("#store-detail").html(data.detail);
+
+            StoreFinder.addClickEvents();
+        },
+        error: function(data)
+        {
+            jQuery(".please-wait").hide();
+            jQuery("#store-list").html("Sorry, we couldn't find any stores!");
+        }
+    });
+
+    return false;
+}
+
+StoreFinder.findStore  = function () {
+    jQuery(".please-wait").show();
+    var zipcode = jQuery("#storefinder_form #zipcode").val();
+    var url     = jQuery("#storefinder_form").attr("action");
+
+    jQuery.ajax({
+        type: "GET",
+        url:  url,
+        data: {
+            zipcode: zipcode,
+            limit: '1'
+        },
+        success: function(data)
+        {
+            var data = jQuery.parseJSON(data);
+            jQuery("#store-detail").html('<h2>' + Translator.translate('Closest Store').stripTags() + '</h2>' + data.detail);
+            jQuery(".please-wait").hide();
+            jQuery("#store-detail").show();
+        },
+        error: function(data)
+        {
+            jQuery(".please-wait").hide();
+            jQuery("#store-list").html("Sorry, we couldn't find any store!");
+        }
+    });
+
+    return false;
+}
+	</script>
+	 
+	<script type="text/javascript">
+                                            
+StoreFinder.stores.push({"id":"28","erp_id":"725","status":"1","courier_route":"1","name":"Baar","email":"baar@athleticum.ch","process_email":"baar@athleticum.ch;office.baar@athleticum.ch;assi725@athleticum.ch;m.crameri@athleticum.ch;c.bergamin@athleticum.ch","phone":"041 768 18 30","fax":"","external_image":"","address1":"athleticum Sportmarkets AG","address2":"","street":"Langgasse 40","city":"Baar","zipcode":"6340","direction":null,"open_hour":"a:3:{s:5:\"MO-DO\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}s:2:\"FR\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}s:2:\"SA\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"17:00\r\";}}","spez_open_hour":"a:14:{i:1492128000;a:1:{i:0;s:2:\"-\r\";}i:1492387200;a:1:{i:0;s:2:\"-\r\";}i:1492992000;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1493596800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1495670400;a:1:{i:0;s:2:\"-\r\";}i:1496620800;a:1:{i:0;s:2:\"-\r\";}i:1497484800;a:1:{i:0;s:2:\"-\r\";}i:1501545600;a:1:{i:0;s:2:\"-\r\";}i:1502755200;a:1:{i:0;s:2:\"-\r\";}i:1504742400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1505692800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1509494400;a:1:{i:0;s:2:\"-\r\";}i:1512691200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"17:00\r\";}i:1514160000;a:1:{i:0;s:2:\"-\r\";}}","sponsoring":"<p>Store Manager: &nbsp; &nbsp; Michael Schiesser<\/p>\r\n<p>Parking: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;30 min. Free Parking<\/p>\r\n<p>Special Sports:<\/p>\r\n<p><img src=\"http:\/\/athleticum.ch\/media\/wysiwyg\/Layout_Spezialsortiment-725.png\" alt=\"\" \/><\/p>","latitude":"47.196288","longitude":"8.538426","created_time":"2013-09-07 14:57:53","update_time":"2017-03-20 10:06:51","interior_image":"","google_business_photos":null,"url":"http:\/\/www.athleticum.ch\/de\/storefinder\/index\/details\/id\/28\/"});                                            
+StoreFinder.stores.push({"id":"4","erp_id":"705","status":"1","courier_route":"0","name":"Basel","email":"basel@athleticum.ch","process_email":"basel@athleticum.ch","phone":"061 333 10 60","fax":"","external_image":"","address1":"athleticum Sportmarkets AG","address2":"","street":"Leimgrubenweg 27","city":"Basel","zipcode":"4053","direction":null,"open_hour":"a:2:{s:5:\"MO-FR\";a:2:{i:0;s:5:\"09:30\";i:1;s:6:\"20:00\r\";}s:2:\"SA\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:00\r\";}}","spez_open_hour":"a:17:{i:1492128000;a:1:{i:0;s:2:\"-\r\";}i:1492387200;a:1:{i:0;s:2:\"-\r\";}i:1492992000;a:2:{i:0;s:5:\"09:30\";i:1;s:6:\"20:00\r\";}i:1493596800;a:1:{i:0;s:2:\"-\r\";}i:1495670400;a:1:{i:0;s:2:\"-\r\";}i:1496620800;a:1:{i:0;s:2:\"-\r\";}i:1497484800;a:2:{i:0;s:5:\"09:30\";i:1;s:6:\"20:00\r\";}i:1501459200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:00\r\";}i:1501545600;a:1:{i:0;s:2:\"-\r\";}i:1502755200;a:2:{i:0;s:5:\"09:30\";i:1;s:6:\"20:00\r\";}i:1504742400;a:2:{i:0;s:5:\"09:30\";i:1;s:6:\"20:00\r\";}i:1505692800;a:2:{i:0;s:5:\"09:30\";i:1;s:6:\"20:00\r\";}i:1512691200;a:2:{i:0;s:5:\"09:20\";i:1;s:6:\"20:00\r\";}i:1512864000;a:2:{i:0;s:5:\"13:00\";i:1;s:6:\"18:00\r\";}i:1513468800;a:2:{i:0;s:5:\"13:00\";i:1;s:6:\"18:00\r\";}i:1514160000;a:1:{i:0;s:2:\"-\r\";}i:1514246400;a:1:{i:0;s:1:\"-\";}}","sponsoring":"<p>Store Manager:&nbsp;Patrick Lembl&eacute;<\/p>\r\n<p>Special Sports:<\/p>\r\n<p><img src=\"http:\/\/athleticum.ch\/media\/wysiwyg\/Layout_Spezialsortiment-705.png\" alt=\"\" width=\"220\" height=\"110\" \/><\/p>","latitude":"47.536150","longitude":"7.606280","created_time":"2013-04-05 07:10:51","update_time":"2017-03-20 08:38:42","interior_image":"","google_business_photos":null,"url":"http:\/\/www.athleticum.ch\/de\/storefinder\/index\/details\/id\/4\/"});                                            
+StoreFinder.stores.push({"id":"21","erp_id":"717","status":"1","courier_route":"0","name":"Bern-Wankdorf","email":"bern-wankdorf@athleticum.ch","process_email":"bern-wankdorf@athleticum.ch","phone":"031 335 60 30","fax":"","external_image":"","address1":"athleticum Sportmarkets AG","address2":"EKZ Wankdorf Center","street":"Papierm\u00fchlestrasse 85","city":"Bern","zipcode":"3014","direction":null,"open_hour":"a:4:{s:2:\"MO\";a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"19:00\r\";}s:5:\"DI-DO\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}s:2:\"FR\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"21:00\r\";}s:2:\"SA\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"17:00\r\";}}","spez_open_hour":"a:15:{i:1492128000;a:1:{i:0;s:2:\"-\r\";}i:1492387200;a:1:{i:0;s:2:\"-\r\";}i:1492992000;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"19:00\r\";}i:1493596800;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"19:00\r\";}i:1495670400;a:1:{i:0;s:2:\"-\r\";}i:1496620800;a:1:{i:0;s:2:\"-\r\";}i:1497484800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1501545600;a:1:{i:0;s:2:\"-\r\";}i:1502755200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1504742400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1505692800;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"19:00\r\";}i:1509494400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1512691200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"21:00\r\";}i:1514160000;a:1:{i:0;s:2:\"-\r\";}i:1514246400;a:1:{i:0;s:1:\"-\";}}","sponsoring":"<p>Store Manager: Uwe Behrens<\/p>\r\n<p>Special Sports:<\/p>\r\n<p><img src=\"http:\/\/athleticum.ch\/media\/wysiwyg\/Layout_Spezialsortiment-717.png\" alt=\"\" width=\"220\" height=\"55\" \/><\/p>","latitude":"46.963070","longitude":"7.463600","created_time":"2013-09-07 14:50:52","update_time":"2017-03-20 09:35:19","interior_image":"","google_business_photos":null,"url":"http:\/\/www.athleticum.ch\/de\/storefinder\/index\/details\/id\/21\/"});                                            
+StoreFinder.stores.push({"id":"33","erp_id":"728","status":"1","courier_route":"0","name":"Biel","email":"biel@athleticum.ch","process_email":null,"phone":"032 628 60 30","fax":"","external_image":"","address1":"athleticum Sportmakets AG","address2":"","street":"Tissot Arena, L\u00e4nggasse","city":"Biel","zipcode":"2504","direction":null,"open_hour":"a:4:{s:2:\"MO\";a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"19:00\r\";}s:5:\"DI-DO\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}s:2:\"FR\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"21:00\r\";}s:2:\"SA\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"17:00\r\";}}","spez_open_hour":"a:15:{i:1492128000;a:1:{i:0;s:2:\"-\r\";}i:1492387200;a:1:{i:0;s:2:\"-\r\";}i:1492992000;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"19:00\r\";}i:1493596800;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"19:00\r\";}i:1495670400;a:1:{i:0;s:2:\"-\r\";}i:1496620800;a:1:{i:0;s:2:\"-\r\";}i:1497484800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1501545600;a:1:{i:0;s:2:\"-\r\";}i:1502755200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1504742400;a:1:{i:0;s:2:\"-\r\";}i:1505692800;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"19:00\r\";}i:1509494400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1512691200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"21:00\r\";}i:1514160000;a:1:{i:0;s:2:\"-\r\";}i:1514246400;a:1:{i:0;s:1:\"-\";}}","sponsoring":"<p><span style=\"font-size: 12px;\">Store Manager: Johnny Beyeler<\/span><\/p>","latitude":"47.155835","longitude":"7.282047","created_time":"2015-08-31 11:17:37","update_time":"2017-03-20 10:14:57","interior_image":"","google_business_photos":null,"url":"http:\/\/www.athleticum.ch\/de\/storefinder\/index\/details\/id\/33\/"});                                            
+StoreFinder.stores.push({"id":"10","erp_id":"703","status":"1","courier_route":"2","name":"Bussigny","email":"bussigny@athleticum.ch","process_email":"online.bussigny@athleticum.ch;m.crameri@athleticum.ch;c.bergamin@athleticum.ch","phone":"021 702 20 14","fax":"","external_image":"","address1":"athleticum Sportmarkets AG","address2":"","street":"Rue de l\u2019Industrie 68","city":"Bussigny","zipcode":"1030","direction":null,"open_hour":"a:4:{s:2:\"MO\";a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"19:00\r\";}s:5:\"DI-DO\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}s:2:\"FR\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"21:00\r\";}s:2:\"SA\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"17:00\r\";}}","spez_open_hour":"a:17:{i:1492041600;a:2:{i:0;s:5:\"08:00\";i:1;s:6:\"18:00\r\";}i:1492128000;a:1:{i:0;s:2:\"-\r\";}i:1492387200;a:1:{i:0;s:2:\"-\r\";}i:1492992000;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"19:00\r\";}i:1493596800;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"19:00\r\";}i:1495670400;a:1:{i:0;s:2:\"-\r\";}i:1496620800;a:1:{i:0;s:2:\"-\r\";}i:1497484800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1501459200;a:2:{i:0;s:5:\"08:00\";i:1;s:6:\"18:00\r\";}i:1501545600;a:1:{i:0;s:2:\"-\r\";}i:1502755200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1504742400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1505692800;a:1:{i:0;s:2:\"-\r\";}i:1509494400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1512691200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"21:00\r\";}i:1514160000;a:1:{i:0;s:2:\"-\r\";}i:1514246400;a:2:{i:0;s:5:\"09:00\";i:1;s:5:\"19:00\";}}","sponsoring":"<p>Store Manager: &nbsp; &nbsp;Mike Lefebvre<\/p>\r\n<p>Parking: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Free Parking<\/p>\r\n<p>Sports in Bussigny:<\/p>\r\n<p><img src=\"http:\/\/athleticum.ch\/media\/wysiwyg\/Layout_Spezialsortiment-703.png\" alt=\"\" width=\"220\" height=\"110\" \/><\/p>","latitude":"46.547014","longitude":"6.563546","created_time":"2013-09-07 14:35:57","update_time":"2017-03-20 08:39:22","interior_image":"","google_business_photos":null,"url":"http:\/\/www.athleticum.ch\/de\/storefinder\/index\/details\/id\/10\/"});                                            
+StoreFinder.stores.push({"id":"3","erp_id":"710","status":"1","courier_route":"0","name":"Chur","email":"chur@athleticum.ch","process_email":"chur@athleticum.ch","phone":" 081 354 95 45","fax":"","external_image":"","address1":"athleticum Sportmarkets AG","address2":"","street":"Wiesentalstrasse 98","city":"Chur","zipcode":"7000","direction":null,"open_hour":"a:2:{s:5:\"MO-FR\";a:2:{i:0;s:5:\"08:30\";i:1;s:6:\"20:00\r\";}s:2:\"SA\";a:2:{i:0;s:5:\"08:00\";i:1;s:6:\"18:00\r\";}}","spez_open_hour":"a:19:{i:1492041600;a:2:{i:0;s:5:\"08:30\";i:1;s:6:\"18:00\r\";}i:1492128000;a:1:{i:0;s:2:\"-\r\";}i:1492387200;a:1:{i:0;s:2:\"-\r\";}i:1492992000;a:2:{i:0;s:5:\"08:30\";i:1;s:6:\"20:00\r\";}i:1493596800;a:2:{i:0;s:5:\"08:30\";i:1;s:6:\"20:00\r\";}i:1495584000;a:2:{i:0;s:5:\"08:30\";i:1;s:6:\"18:00\r\";}i:1495670400;a:1:{i:0;s:2:\"-\r\";}i:1496620800;a:1:{i:0;s:2:\"-\r\";}i:1497484800;a:2:{i:0;s:5:\"08:30\";i:1;s:6:\"20:00\r\";}i:1501545600;a:1:{i:0;s:2:\"-\r\";}i:1502755200;a:2:{i:0;s:5:\"08:30\";i:1;s:6:\"20:00\r\";}i:1504742400;a:2:{i:0;s:5:\"08:30\";i:1;s:6:\"20:00\r\";}i:1505692800;a:2:{i:0;s:5:\"08:30\";i:1;s:6:\"20:00\r\";}i:1509494400;a:2:{i:0;s:5:\"08:30\";i:1;s:6:\"20:00\r\";}i:1512691200;a:2:{i:0;s:5:\"08:30\";i:1;s:6:\"20:00\r\";}i:1512864000;a:2:{i:0;s:5:\"12:00\";i:1;s:6:\"17:00\r\";}i:1513468800;a:2:{i:0;s:5:\"12:00\";i:1;s:6:\"17:00\r\";}i:1514160000;a:1:{i:0;s:2:\"-\r\";}i:1514246400;a:1:{i:0;s:1:\"-\";}}","sponsoring":"<p>Store Manager: &nbsp; Edgar Camenisch<\/p>\r\n<p>Parking: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Free Parking<\/p>\r\n<p>Special Sports:<\/p>\r\n<p><img src=\"http:\/\/athleticum.ch\/media\/wysiwyg\/Layout_Spezialsortiment-710.png\" alt=\"\" width=\"220\" height=\"110\" \/><\/p>","latitude":"46.862382","longitude":"9.531031","created_time":"2013-04-05 07:10:51","update_time":"2017-03-20 09:03:05","interior_image":"","google_business_photos":null,"url":"http:\/\/www.athleticum.ch\/de\/storefinder\/index\/details\/id\/3\/"});                                            
+StoreFinder.stores.push({"id":"20","erp_id":"716","status":"1","courier_route":"0","name":"Collombey","email":"collombey@athleticum.ch","process_email":"collombey@athleticum.ch","phone":"024 473 47 60","fax":"","external_image":"","address1":"athleticum Sportmarkets AG","address2":"","street":"Entre-deux-Fossaux","city":"Collombey","zipcode":"1868","direction":null,"open_hour":"a:3:{s:5:\"MO-DO\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}s:2:\"FR\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"21:00\r\";}s:2:\"SA\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"17:00\r\";}}","spez_open_hour":"a:15:{i:1492128000;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"21:00\r\";}i:1492387200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1492992000;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1493596800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1495670400;a:1:{i:0;s:2:\"-\r\";}i:1496620800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1497484800;a:1:{i:0;s:2:\"-\r\";}i:1501545600;a:1:{i:0;s:2:\"-\r\";}i:1502755200;a:1:{i:0;s:2:\"-\r\";}i:1504742400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1505692800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1509494400;a:1:{i:0;s:2:\"-\r\";}i:1512691200;a:1:{i:0;s:2:\"-\r\";}i:1514160000;a:1:{i:0;s:2:\"-\r\";}i:1514246400;a:2:{i:0;s:5:\"09:00\";i:1;s:5:\"18:30\";}}","sponsoring":"<p>Store Manager: &nbsp; &nbsp; &nbsp; &nbsp;Vanessa Gilland<\/p>\r\n<p>Parking: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Free Parking<\/p>\r\n<p>Special Sports:<\/p>\r\n<p><img src=\"http:\/\/athleticum.ch\/media\/wysiwyg\/Layout_Spezialsortiment-716.png\" alt=\"\" width=\"220\" height=\"110\" \/><\/p>","latitude":"46.265700","longitude":"6.955778","created_time":"2013-09-07 14:49:41","update_time":"2017-03-20 09:22:27","interior_image":"","google_business_photos":null,"url":"http:\/\/www.athleticum.ch\/de\/storefinder\/index\/details\/id\/20\/"});                                            
+StoreFinder.stores.push({"id":"26","erp_id":"723","status":"1","courier_route":"0","name":"Conthey","email":"conthey@athleticum.ch","process_email":"conthey@athleticum.ch","phone":"027 459 29 30","fax":"","external_image":"","address1":"athleticum Sportmarkets AG","address2":"","street":"Route de Bassin 6","city":"Conthey","zipcode":"1964","direction":null,"open_hour":"a:3:{s:5:\"MO-DO\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}s:2:\"FR\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}s:2:\"SA\";a:2:{i:0;s:5:\"08:00\";i:1;s:6:\"17:00\r\";}}","spez_open_hour":"a:16:{i:1492128000;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}i:1492387200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1492992000;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1493596800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1495670400;a:1:{i:0;s:2:\"-\r\";}i:1496620800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1497484800;a:1:{i:0;s:2:\"-\r\";}i:1501545600;a:1:{i:0;s:2:\"-\r\";}i:1502755200;a:1:{i:0;s:2:\"-\r\";}i:1504742400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1505692800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1509494400;a:1:{i:0;s:2:\"-\r\";}i:1512691200;a:1:{i:0;s:2:\"-\r\";}i:1514073600;a:2:{i:0;s:5:\"08:00\";i:1;s:6:\"17:00\r\";}i:1514160000;a:1:{i:0;s:2:\"-\r\";}i:1514678400;a:2:{i:0;s:5:\"08:00\";i:1;s:5:\"17:00\";}}","sponsoring":"<p>Store Manager: &nbsp; &nbsp;Dominique Soffredini<\/p>\r\n<p>Parking: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Free Parking<\/p>\r\n<p>Special Sports:<\/p>\r\n<p><img src=\"http:\/\/athleticum.ch\/media\/wysiwyg\/Layout_Spezialsortiment-723.png\" alt=\"\" width=\"220\" height=\"110\" \/><\/p>","latitude":"46.223359","longitude":"7.297487","created_time":"2013-09-07 14:56:12","update_time":"2017-03-20 09:56:01","interior_image":"","google_business_photos":null,"url":"http:\/\/www.athleticum.ch\/de\/storefinder\/index\/details\/id\/26\/"});                                            
+StoreFinder.stores.push({"id":"19","erp_id":"715","status":"1","courier_route":"0","name":"Dietikon","email":"dietikon@athleticum.ch","process_email":"dietikon@athleticum.ch","phone":"043 322 43 93","fax":"","external_image":"","address1":"athleticum Sportmarkets AG","address2":"","street":"Riedstrasse 3","city":"Dietikon","zipcode":"8953","direction":null,"open_hour":"a:2:{s:5:\"MO-FR\";a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"20:00\r\";}s:2:\"SA\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:00\r\";}}","spez_open_hour":"a:17:{i:1492128000;a:1:{i:0;s:2:\"-\r\";}i:1492387200;a:1:{i:0;s:2:\"-\r\";}i:1492992000;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"20:00\r\";}i:1493596800;a:1:{i:0;s:2:\"-\r\";}i:1495670400;a:1:{i:0;s:2:\"-\r\";}i:1496620800;a:1:{i:0;s:2:\"-\r\";}i:1497484800;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"20:00\r\";}i:1501545600;a:1:{i:0;s:2:\"-\r\";}i:1502755200;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"20:00\r\";}i:1504742400;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"20:00\r\";}i:1505692800;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"20:00\r\";}i:1509494400;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"20:00\r\";}i:1512691200;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"20:00\r\";}i:1513468800;a:2:{i:0;s:5:\"12:00\";i:1;s:6:\"17:00\r\";}i:1514073600;a:2:{i:0;s:5:\"12:00\";i:1;s:6:\"17:00\r\";}i:1514160000;a:1:{i:0;s:2:\"-\r\";}i:1514246400;a:1:{i:0;s:1:\"-\";}}","sponsoring":"<p>Store Manager:&nbsp;Dany Wyler<\/p>\r\n<p>Special Sports:<\/p>\r\n<p><img src=\"http:\/\/athleticum.ch\/media\/wysiwyg\/Layout_Spezialsortiment-715.png\" alt=\"\" width=\"220\" height=\"110\" \/><\/p>","latitude":"47.420102","longitude":"8.393028","created_time":"2013-09-07 14:48:31","update_time":"2017-03-20 09:18:56","interior_image":"","google_business_photos":null,"url":"http:\/\/www.athleticum.ch\/de\/storefinder\/index\/details\/id\/19\/"});                                            
+StoreFinder.stores.push({"id":"12","erp_id":"706","status":"1","courier_route":"0","name":"Dietlikon","email":"dietlikon@athleticum.ch","process_email":"dietlikon@athleticum.ch","phone":"044 835 20 50","fax":"","external_image":"","address1":"athleticum Sportmarkets AG","address2":"","street":"Industriestrasse 29","city":"Dietlikon","zipcode":"8305","direction":null,"open_hour":"a:2:{s:5:\"MO-FR\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}s:2:\"SA\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:00\r\";}}","spez_open_hour":"a:19:{i:1492128000;a:1:{i:0;s:2:\"-\r\";}i:1492387200;a:1:{i:0;s:2:\"-\r\";}i:1492992000;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}i:1493596800;a:1:{i:0;s:2:\"-\r\";}i:1495670400;a:1:{i:0;s:2:\"-\r\";}i:1496620800;a:1:{i:0;s:2:\"-\r\";}i:1497484800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}i:1501545600;a:1:{i:0;s:2:\"-\r\";}i:1502755200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}i:1504742400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}i:1505692800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}i:1509494400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}i:1512259200;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"17:00\r\";}i:1512691200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}i:1513468800;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"17:00\r\";}i:1514073600;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"16:00\r\";}i:1514160000;a:1:{i:0;s:2:\"-\r\";}i:1514246400;a:1:{i:0;s:2:\"-\r\";}i:1514678400;a:2:{i:0;s:5:\"09:00\";i:1;s:5:\"16:00\";}}","sponsoring":"<p>Store Manager: Sven Reindl<\/p>\r\n<p>Special Sports:<\/p>\r\n<p><img src=\"http:\/\/athleticum.ch\/media\/wysiwyg\/Layout_Spezialsortiment-706.png\" alt=\"\" width=\"220\" height=\"55\" \/><\/p>","latitude":"47.412719","longitude":"8.619886","created_time":"2013-09-07 14:40:27","update_time":"2017-03-20 08:43:58","interior_image":"","google_business_photos":null,"url":"http:\/\/www.athleticum.ch\/de\/storefinder\/index\/details\/id\/12\/"});                                            
+StoreFinder.stores.push({"id":"15","erp_id":"709","status":"1","courier_route":"0","name":"Emmenbr\u00fccke","email":"emmen@athleticum.ch","process_email":"emmen@athleticum.ch","phone":"041 269 50 30","fax":"","external_image":"","address1":"athleticum Sportmarkets AG","address2":"","street":"Seetalplatz","city":"Emmenbr\u00fccke","zipcode":"6020","direction":null,"open_hour":"a:3:{s:8:\"MO,DI,DO\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}s:5:\"MI,FR\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"21:00\r\";}s:2:\"SA\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"16:00\r\";}}","spez_open_hour":"a:18:{i:1492128000;a:1:{i:0;s:2:\"-\r\";}i:1492387200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1492992000;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"17:00\r\";}i:1493596800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1495670400;a:1:{i:0;s:2:\"-\r\";}i:1496620800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1497398400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"17:00\r\";}i:1497484800;a:1:{i:0;s:2:\"-\r\";}i:1501545600;a:1:{i:0;s:2:\"-\r\";}i:1502755200;a:1:{i:0;s:2:\"-\r\";}i:1504742400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1505692800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1509494400;a:1:{i:0;s:2:\"-\r\";}i:1512691200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1512864000;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"17:00\r\";}i:1513468800;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"17:00\r\";}i:1514160000;a:1:{i:0;s:2:\"-\r\";}i:1514246400;a:1:{i:0;s:1:\"-\";}}","sponsoring":"<p>Store Manager: &nbsp; &nbsp;Sanela Kozarac<\/p>\r\n<p>Parking: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1h Free Parking<\/p>\r\n<p>Special Sports:<\/p>\r\n<p><img src=\"http:\/\/athleticum.ch\/media\/wysiwyg\/Layout_Spezialsortiment-709.png\" alt=\"\" width=\"220\" height=\"55\" \/><\/p>","latitude":"47.069106","longitude":"8.280650","created_time":"2013-09-07 14:43:51","update_time":"2017-03-20 08:59:26","interior_image":"","google_business_photos":null,"url":"http:\/\/www.athleticum.ch\/de\/storefinder\/index\/details\/id\/15\/"});                                            
+StoreFinder.stores.push({"id":"9","erp_id":"702","status":"1","courier_route":"0","name":"Heimberg","email":"heimberg@athleticum.ch","process_email":"heimberg@athleticum.ch","phone":"033 439 60 30","fax":"","external_image":"","address1":"athleticum Sportmarkets AG","address2":"","street":"Bl\u00fcemlisalpstrasse 36","city":"Heimberg","zipcode":"3627","direction":null,"open_hour":"a:4:{s:2:\"MO\";a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"19:00\r\";}s:5:\"DI-DO\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}s:2:\"FR\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"21:00\r\";}s:2:\"SA\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"17:00\r\";}}","spez_open_hour":"a:19:{i:1492041600;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"17:00\r\";}i:1492128000;a:1:{i:0;s:2:\"-\r\";}i:1492387200;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"17:00\r\";}i:1492992000;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"19:00\r\";}i:1493596800;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"19:00\r\";}i:1495584000;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"17:00\r\";}i:1495670400;a:1:{i:0;s:2:\"-\r\";}i:1496620800;a:1:{i:0;s:2:\"-\r\";}i:1497484800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1501459200;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"17:00\r\";}i:1501545600;a:1:{i:0;s:2:\"-\r\";}i:1502755200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1504742400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1505692800;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"19:00\r\";}i:1509494400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1512691200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"21:00\r\";}i:1513468800;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"17:00\r\";}i:1514160000;a:1:{i:0;s:2:\"-\r\";}i:1514246400;a:1:{i:0;s:1:\"-\";}}","sponsoring":"<p>Store Manager: &nbsp; &nbsp;Tom Marti<\/p>\r\n<p>Parking: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Free Parking<\/p>\r\n<p>Special Sports:<\/p>\r\n<p><img src=\"http:\/\/athleticum.ch\/media\/wysiwyg\/Layout_Spezialsortiment-702.png\" alt=\"\" width=\"220\" height=\"110\" \/><\/p>\r\n<p>&nbsp;<\/p>\r\n<p>&nbsp;<\/p>","latitude":"46.780937","longitude":"7.607220","created_time":"2013-09-06 05:02:09","update_time":"2017-03-20 08:39:39","interior_image":"","google_business_photos":null,"url":"http:\/\/www.athleticum.ch\/de\/storefinder\/index\/details\/id\/9\/"});                                            
+StoreFinder.stores.push({"id":"14","erp_id":"708","status":"1","courier_route":"0","name":"Hinwil","email":"hinwil@athleticum.ch","process_email":"hinwil@athleticum.ch","phone":"044 938 80 50","fax":"","external_image":"","address1":"athleticum Sportmarkets AG","address2":"","street":"W\u00e4sseristrasse 40","city":"Hinwil","zipcode":"8340","direction":null,"open_hour":"a:1:{s:5:\"MO-SA\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}}","spez_open_hour":"a:19:{i:1491696000;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"18:00\r\";}i:1492128000;a:1:{i:0;s:2:\"-\r\";}i:1492387200;a:1:{i:0;s:2:\"-\r\";}i:1492992000;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}i:1493596800;a:1:{i:0;s:2:\"-\r\";}i:1495670400;a:1:{i:0;s:2:\"-\r\";}i:1496620800;a:1:{i:0;s:2:\"-\r\";}i:1497484800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}i:1501545600;a:1:{i:0;s:2:\"-\r\";}i:1502755200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}i:1504742400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}i:1505692800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}i:1509235200;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"18:00\r\";}i:1509494400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}i:1512691200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}i:1513468800;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"18:00\r\";}i:1514073600;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"17:00\r\";}i:1514160000;a:1:{i:0;s:2:\"-\r\";}i:1514246400;a:2:{i:0;s:5:\"09:00\";i:1;s:5:\"20:00\";}}","sponsoring":"<p>Store Manager: &nbsp; &nbsp;ad.I.&nbsp;Berweger Marc<\/p>\r\n<p>Parking: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Free Parking<\/p>\r\n<p>Special Sports:<\/p>\r\n<p><span style=\"font-size: 12px;\"><img src=\"http:\/\/athleticum.ch\/media\/wysiwyg\/Layout_Spezialsortiment-708.png\" alt=\"\" width=\"220\" height=\"55\" \/><\/span><\/p>","latitude":"47.307206","longitude":"8.816226","created_time":"2013-09-07 14:43:05","update_time":"2017-03-20 08:54:45","interior_image":"","google_business_photos":null,"url":"http:\/\/www.athleticum.ch\/de\/storefinder\/index\/details\/id\/14\/"});                                            
+StoreFinder.stores.push({"id":"25","erp_id":"722","status":"1","courier_route":"0","name":"Lausanne-Flon","email":"lausanne@athleticum.ch","process_email":"lausanne@athleticum.ch","phone":"021 632 60 30","fax":"","external_image":"","address1":"athleticum Sportmarkets AG","address2":"","street":"Rue de Gen\u00e8ve 33","city":"Lausanne","zipcode":"1003","direction":null,"open_hour":"a:2:{s:5:\"MO-FR\";a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"19:00\r\";}s:2:\"SA\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:00\r\";}}","spez_open_hour":"a:9:{i:1492128000;a:1:{i:0;s:2:\"-\r\";}i:1492387200;a:1:{i:0;s:2:\"-\r\";}i:1495670400;a:1:{i:0;s:2:\"-\r\";}i:1496620800;a:1:{i:0;s:2:\"-\r\";}i:1501545600;a:1:{i:0;s:2:\"-\r\";}i:1505692800;a:1:{i:0;s:2:\"-\r\";}i:1514160000;a:1:{i:0;s:2:\"-\r\";}i:1514764800;a:1:{i:0;s:2:\"-\r\";}i:1514851200;a:1:{i:0;s:2:\"-\r\";}}","sponsoring":"<p>Store Manager: Tahar Hamouda<\/p>\r\n<p>Special Sports:<\/p>\r\n<p><img src=\"http:\/\/athleticum.ch\/media\/wysiwyg\/Layout_Spezialsortiment-722.png\" alt=\"\" width=\"220\" height=\"55\" \/><\/p>","latitude":"46.522463","longitude":"6.625523","created_time":"2013-09-07 14:55:13","update_time":"2017-03-20 09:52:07","interior_image":"","google_business_photos":null,"url":"http:\/\/www.athleticum.ch\/de\/storefinder\/index\/details\/id\/25\/"});                                            
+StoreFinder.stores.push({"id":"5","erp_id":"712","status":"1","courier_route":"0","name":"Meyrin-Genf","email":"geneve@athleticum.ch","process_email":"geneve@athleticum.ch","phone":"022 783 90 90","fax":"","external_image":"","address1":"athleticum Sportmarkets AG","address2":"","street":"Ch. de Riantbosson 7","city":"Meyrin","zipcode":"1217","direction":null,"open_hour":"a:3:{s:9:\"MO-MI, FR\";a:2:{i:0;s:5:\"09:30\";i:1;s:6:\"19:00\r\";}s:2:\"DO\";a:2:{i:0;s:5:\"09:30\";i:1;s:6:\"20:00\r\";}s:2:\"SA\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:00\r\";}}","spez_open_hour":"a:15:{i:1492041600;a:2:{i:0;s:5:\"09:30\";i:1;s:6:\"18:00\r\";}i:1492128000;a:1:{i:0;s:2:\"-\r\";}i:1492387200;a:1:{i:0;s:2:\"-\r\";}i:1492992000;a:2:{i:0;s:5:\"09:30\";i:1;s:6:\"19:00\r\";}i:1495670400;a:1:{i:0;s:2:\"-\r\";}i:1496620800;a:1:{i:0;s:2:\"-\r\";}i:1497484800;a:2:{i:0;s:5:\"09:30\";i:1;s:6:\"20:00\r\";}i:1501545600;a:1:{i:0;s:2:\"-\r\";}i:1504656000;a:2:{i:0;s:5:\"09:30\";i:1;s:6:\"18:00\r\";}i:1504742400;a:1:{i:0;s:2:\"-\r\";}i:1505692800;a:2:{i:0;s:5:\"09:30\";i:1;s:6:\"19:00\r\";}i:1509494400;a:2:{i:0;s:5:\"09:30\";i:1;s:6:\"19:00\r\";}i:1512691200;a:2:{i:0;s:5:\"09:30\";i:1;s:6:\"19:00\r\";}i:1514160000;a:1:{i:0;s:2:\"-\r\";}i:1514246400;a:2:{i:0;s:5:\"09:30\";i:1;s:5:\"19:00\";}}","sponsoring":"<p>Store Manager: &nbsp; &nbsp;Tahar Hamouda<\/p>\r\n<p>Parking: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Free Parking<\/p>\r\n<p>Special Sports:<\/p>\r\n<p><img title=\"genf\" src=\"http:\/\/athleticum.ch\/media\/wysiwyg\/Layout_Spezialsortiment-712.png\" alt=\"\" width=\"220\" height=\"110\" \/><\/p>","latitude":"46.226580","longitude":"6.083754","created_time":"2013-04-05 07:10:51","update_time":"2017-03-20 09:11:55","interior_image":"","google_business_photos":null,"url":"http:\/\/www.athleticum.ch\/de\/storefinder\/index\/details\/id\/5\/"});                                            
+StoreFinder.stores.push({"id":"22","erp_id":"719","status":"1","courier_route":"0","name":"Pf\u00e4ffikon","email":"pfaeffikon@athleticum.ch","process_email":"pfaeffikon@athleticum.ch","phone":"055 616 60 30","fax":"","external_image":"","address1":"athleticum Sportmarkets AG","address2":"","street":"Gewerbehaus Eichenstrasse 4a","city":"Pf\u00e4ffikon","zipcode":"8808","direction":null,"open_hour":"a:2:{s:5:\"MO-FR\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}s:2:\"SA\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"17:00\r\";}}","spez_open_hour":"a:15:{i:1492128000;a:1:{i:0;s:2:\"-\r\";}i:1492387200;a:1:{i:0;s:2:\"-\r\";}i:1492992000;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}i:1493596800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}i:1495670400;a:1:{i:0;s:2:\"-\r\";}i:1496620800;a:1:{i:0;s:2:\"-\r\";}i:1497484800;a:1:{i:0;s:2:\"-\r\";}i:1501545600;a:1:{i:0;s:2:\"-\r\";}i:1502755200;a:1:{i:0;s:2:\"-\r\";}i:1504742400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}i:1505692800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}i:1509494400;a:1:{i:0;s:2:\"-\r\";}i:1512691200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"17:00\r\";}i:1514160000;a:1:{i:0;s:2:\"-\r\";}i:1514246400;a:1:{i:0;s:1:\"-\";}}","sponsoring":"<p>Store Manager: &nbsp; &nbsp;Michael Schiesser<\/p>\r\n<p>Parking: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Free Parking<\/p>\r\n<p>Special Sports:<\/p>\r\n<p><img src=\"http:\/\/athleticum.ch\/media\/wysiwyg\/Layout_Spezialsortiment-719.png\" alt=\"\" width=\"220\" height=\"55\" \/><\/p>","latitude":"47.197418","longitude":"8.765561","created_time":"2013-09-07 14:51:53","update_time":"2017-03-20 09:37:38","interior_image":"","google_business_photos":null,"url":"http:\/\/www.athleticum.ch\/de\/storefinder\/index\/details\/id\/22\/"});                                            
+StoreFinder.stores.push({"id":"23","erp_id":"720","status":"1","courier_route":"0","name":"S.Antonino","email":"s.antonino@athleticum.ch","process_email":"s.antonino@athleticum.ch","phone":"091 986 60 30","fax":"","external_image":"","address1":"athleticum Sportmarkets AG","address2":"","street":"Via Serrai 10","city":"S.Antonino","zipcode":"6592","direction":null,"open_hour":"a:3:{s:5:\"MO-DO\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}s:2:\"FR\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"21:00\r\";}s:2:\"SA\";a:2:{i:0;s:5:\"08:00\";i:1;s:6:\"17:00\r\";}}","spez_open_hour":"a:20:{i:1492128000;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"21:00\r\";}i:1492387200;a:1:{i:0;s:2:\"-\r\";}i:1492992000;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1493596800;a:1:{i:0;s:2:\"-\r\";}i:1495584000;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"21:00\r\";}i:1495670400;a:1:{i:0;s:2:\"-\r\";}i:1496620800;a:1:{i:0;s:2:\"-\r\";}i:1497398400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"21:00\r\";}i:1497484800;a:1:{i:0;s:2:\"-\r\";}i:1498694400;a:1:{i:0;s:2:\"-\r\";}i:1501545600;a:1:{i:0;s:2:\"-\r\";}i:1502755200;a:1:{i:0;s:2:\"-\r\";}i:1504742400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1505692800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1509494400;a:1:{i:0;s:2:\"-\r\";}i:1512691200;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"18:00\r\";}i:1512864000;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"18:00\r\";}i:1513468800;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"18:00\r\";}i:1514160000;a:1:{i:0;s:2:\"-\r\";}i:1514246400;a:1:{i:0;s:1:\"-\";}}","sponsoring":"<p>Store Manager: &nbsp; &nbsp;Alain Fredriksson<\/p>\r\n<p>Parking: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Free Parking<\/p>\r\n<p>Special Sports:<\/p>\r\n<p><img src=\"http:\/\/athleticum.ch\/media\/wysiwyg\/Layout_Spezialsortiment-720.png\" alt=\"\" width=\"220\" height=\"55\" \/><\/p>","latitude":"46.154740","longitude":"8.965923","created_time":"2013-09-07 14:53:01","update_time":"2017-03-20 09:46:35","interior_image":"","google_business_photos":null,"url":"http:\/\/www.athleticum.ch\/de\/storefinder\/index\/details\/id\/23\/"});                                            
+StoreFinder.stores.push({"id":"16","erp_id":"711","status":"1","courier_route":"0","name":"Schaffhausen","email":"schaffhausen@athleticum.ch","process_email":"schaffhausen@athleticum.ch","phone":"052 630 09 45","fax":"","external_image":"","address1":"athleticum Sportmarkets AG","address2":"","street":"Fulacherhalde 4","city":"Schaffhausen","zipcode":"8207","direction":null,"open_hour":"a:3:{s:8:\"MO-MI,FR\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}s:2:\"DO\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}s:2:\"SA\";a:2:{i:0;s:5:\"08:00\";i:1;s:6:\"18:00\r\";}}","spez_open_hour":"a:17:{i:1491696000;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"17:00\r\";}i:1492041600;a:2:{i:0;s:5:\"08:00\";i:1;s:6:\"18:00\r\";}i:1492128000;a:1:{i:0;s:2:\"-\r\";}i:1492387200;a:1:{i:0;s:2:\"-\r\";}i:1492992000;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1493596800;a:1:{i:0;s:2:\"-\r\";}i:1495670400;a:1:{i:0;s:2:\"-\r\";}i:1496620800;a:1:{i:0;s:2:\"-\r\";}i:1497484800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}i:1501545600;a:1:{i:0;s:2:\"-\r\";}i:1502755200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1504742400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}i:1505692800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1509494400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1512691200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1514160000;a:1:{i:0;s:2:\"-\r\";}i:1514246400;a:1:{i:0;s:1:\"-\";}}","sponsoring":"<p>Store Manager: &nbsp; &nbsp;Tobias M&uuml;lling<\/p>\r\n<p>Parking: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Free Parking<\/p>\r\n<p>Special Sports:<\/p>\r\n<p><img src=\"http:\/\/athleticum.ch\/media\/wysiwyg\/Layout_Spezialsortiment-711.png\" alt=\"\" width=\"220\" height=\"55\" \/><\/p>","latitude":"47.712977","longitude":"8.650819","created_time":"2013-09-07 14:45:04","update_time":"2017-03-20 09:06:35","interior_image":"","google_business_photos":null,"url":"http:\/\/www.athleticum.ch\/de\/storefinder\/index\/details\/id\/16\/"});                                            
+StoreFinder.stores.push({"id":"13","erp_id":"707","status":"1","courier_route":"0","name":"St. Gallen","email":"st.gallen@athleticum.ch","process_email":"st.gallen@athleticum.ch","phone":"071 314 60 30","fax":"","external_image":"","address1":"athleticum Sportmarkets AG","address2":"","street":"Gaiserwaldstrasse 7","city":"St. Gallen","zipcode":"9015","direction":null,"open_hour":"a:4:{s:5:\"MO-MI\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}s:2:\"DO\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"21:00\r\";}s:2:\"FR\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}s:2:\"SA\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"17:00\r\";}}","spez_open_hour":"a:19:{i:1492041600;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"17:00\r\";}i:1492128000;a:1:{i:0;s:2:\"-\r\";}i:1492387200;a:1:{i:0;s:2:\"-\r\";}i:1492992000;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"19:00\r\";}i:1493596800;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"19:00\r\";}i:1495584000;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"17:00\r\";}i:1495670400;a:1:{i:0;s:2:\"-\r\";}i:1496620800;a:1:{i:0;s:2:\"-\r\";}i:1497484800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1501545600;a:1:{i:0;s:2:\"-\r\";}i:1502755200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1504742400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1505692800;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"19:00\r\";}i:1509494400;a:1:{i:0;s:2:\"-\r\";}i:1512691200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"21:00\r\";}i:1512864000;a:2:{i:0;s:5:\"12:00\";i:1;s:6:\"17:00\r\";}i:1513468800;a:2:{i:0;s:5:\"12:00\";i:1;s:6:\"17:00\r\";}i:1514160000;a:1:{i:0;s:2:\"-\r\";}i:1514246400;a:1:{i:0;s:2:\"-\r\";}}","sponsoring":"<p>Store Manager: Daniel Tschopp<\/p>\r\n<p>Special Sports:<\/p>\r\n<p><img src=\"http:\/\/athleticum.ch\/media\/wysiwyg\/Layout_Spezialsortiment-707.png\" alt=\"\" width=\"220\" height=\"110\" \/><\/p>","latitude":"47.415821","longitude":"9.314383","created_time":"2013-09-07 14:41:53","update_time":"2017-03-24 07:50:59","interior_image":"","google_business_photos":null,"url":"http:\/\/www.athleticum.ch\/de\/storefinder\/index\/details\/id\/13\/"});                                            
+StoreFinder.stores.push({"id":"11","erp_id":"704","status":"1","courier_route":"0","name":"Suhr","email":"suhr@athleticum.ch","process_email":"suhr@athleticum.ch","phone":"062 855 50 40","fax":"","external_image":"","address1":"athleticum Sportmarkets AG","address2":"","street":"Bernstrasse Ost 49","city":"Suhr","zipcode":"5034","direction":null,"open_hour":"a:2:{s:5:\"MO-FR\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}s:2:\"SA\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:00\r\";}}","spez_open_hour":"a:19:{i:1492041600;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:00\r\";}i:1492128000;a:1:{i:0;s:2:\"-\r\";}i:1492387200;a:1:{i:0;s:2:\"-\r\";}i:1493596800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}i:1495584000;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:00\r\";}i:1495670400;a:1:{i:0;s:2:\"-\r\";}i:1496620800;a:1:{i:0;s:2:\"-\r\";}i:1497484800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}i:1501459200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:00\r\";}i:1501545600;a:1:{i:0;s:2:\"-\r\";}i:1502755200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:00\r\";}i:1504828800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:00\r\";}i:1509408000;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:00\r\";}i:1509494400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:00\r\";}i:1512691200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:00\r\";}i:1512864000;a:2:{i:0;s:5:\"11:00\";i:1;s:6:\"18:00\r\";}i:1513468800;a:2:{i:0;s:5:\"11:00\";i:1;s:6:\"18:00\r\";}i:1514160000;a:1:{i:0;s:2:\"-\r\";}i:1514246400;a:1:{i:0;s:1:\"-\";}}","sponsoring":"<p>Store Manager: &nbsp; &nbsp; &nbsp; &nbsp;Ren&eacute; Stephan<\/p>\r\n<p>Parking: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Free Parking<\/p>\r\n<p>Special Sports:<\/p>\r\n<p><img src=\"http:\/\/athleticum.ch\/media\/wysiwyg\/Layout_Spezialsortiment-704.png\" alt=\"\" width=\"220\" height=\"55\" \/><\/p>","latitude":"47.373791","longitude":"8.084257","created_time":"2013-09-07 14:39:09","update_time":"2017-03-20 08:39:08","interior_image":"","google_business_photos":null,"url":"http:\/\/www.athleticum.ch\/de\/storefinder\/index\/details\/id\/11\/"});                                            
+StoreFinder.stores.push({"id":"24","erp_id":"721","status":"1","courier_route":"0","name":"Villars-sur-Gl\u00e2ne","email":"villarssurglane@athleticum.ch","process_email":"villarssurglane@athleticum.ch","phone":"026 407 78 20","fax":"","external_image":"","address1":"athleticum Sportmarkets AG","address2":"Centre commercial Fribourg-Sud","street":"Rte. de Moncor 1","city":"Villars-sur-Gl\u00e2ne","zipcode":"1752","direction":null,"open_hour":"a:3:{s:5:\"MO-DO\";a:2:{i:0;s:5:\"08:30\";i:1;s:6:\"19:00\r\";}s:2:\"FR\";a:2:{i:0;s:5:\"08:30\";i:1;s:6:\"21:00\r\";}s:2:\"SA\";a:2:{i:0;s:5:\"08:00\";i:1;s:6:\"16:00\r\";}}","spez_open_hour":"a:18:{i:1492041600;a:2:{i:0;s:5:\"08:30\";i:1;s:6:\"21:00\r\";}i:1492128000;a:1:{i:0;s:2:\"-\r\";}i:1492387200;a:2:{i:0;s:5:\"08:30\";i:1;s:6:\"19:00\r\";}i:1492992000;a:2:{i:0;s:5:\"08:30\";i:1;s:6:\"19:00\r\";}i:1493596800;a:2:{i:0;s:5:\"08:30\";i:1;s:6:\"19:00\r\";}i:1495584000;a:2:{i:0;s:5:\"08:30\";i:1;s:6:\"19:00\r\";}i:1495670400;a:1:{i:0;s:2:\"-\r\";}i:1496620800;a:2:{i:0;s:5:\"08:30\";i:1;s:6:\"19:00\r\";}i:1497484800;a:1:{i:0;s:2:\"-\r\";}i:1501545600;a:1:{i:0;s:2:\"-\r\";}i:1502755200;a:1:{i:0;s:2:\"-\r\";}i:1504742400;a:2:{i:0;s:5:\"08:30\";i:1;s:6:\"19:00\r\";}i:1505692800;a:2:{i:0;s:5:\"08:30\";i:1;s:6:\"19:00\r\";}i:1509494400;a:1:{i:0;s:2:\"-\r\";}i:1512604800;a:2:{i:0;s:5:\"08:30\";i:1;s:6:\"21:00\r\";}i:1512691200;a:1:{i:0;s:2:\"-\r\";}i:1514160000;a:1:{i:0;s:2:\"-\r\";}i:1514246400;a:2:{i:0;s:5:\"08:30\";i:1;s:5:\"19:00\";}}","sponsoring":"<p>Store Manager: &nbsp; &nbsp;Nicolas Tona<\/p>\r\n<p>Parking: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Free Parking<\/p>\r\n<p>Special Sports:<\/p>\r\n<p><img src=\"http:\/\/athleticum.ch\/media\/wysiwyg\/Layout_Spezialsortiment-721.png\" alt=\"\" width=\"220\" height=\"110\" \/><\/p>","latitude":"46.797996","longitude":"7.123740","created_time":"2013-09-07 14:54:09","update_time":"2017-03-20 09:51:00","interior_image":"","google_business_photos":null,"url":"http:\/\/www.athleticum.ch\/de\/storefinder\/index\/details\/id\/24\/"});                                            
+StoreFinder.stores.push({"id":"17","erp_id":"713","status":"1","courier_route":"0","name":"Winterthur","email":"winterthur@athleticum.ch","process_email":"winterthur@athleticum.ch","phone":"052 235 11 40","fax":"","external_image":"","address1":"athleticum Sportmarkets AG","address2":"","street":"Industrie Gr\u00fczefeldstrasse 49","city":"Winterthur","zipcode":"8404","direction":null,"open_hour":"a:3:{s:8:\"MO-MI,FR\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}s:2:\"DO\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}s:2:\"SA\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"17:00\r\";}}","spez_open_hour":"a:20:{i:1492041600;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"17:00\r\";}i:1492128000;a:1:{i:0;s:2:\"-\r\";}i:1492387200;a:1:{i:0;s:2:\"-\r\";}i:1492992000;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1493596800;a:1:{i:0;s:2:\"-\r\";}i:1495584000;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"17:00\r\";}i:1495670400;a:1:{i:0;s:2:\"-\r\";}i:1496620800;a:1:{i:0;s:2:\"-\r\";}i:1497484800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}i:1501459200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"17:00\r\";}i:1501545600;a:1:{i:0;s:2:\"-\r\";}i:1502755200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1504742400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"20:00\r\";}i:1505692800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1509494400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1512691200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:30\r\";}i:1512864000;a:2:{i:0;s:5:\"12:00\";i:1;s:6:\"17:00\r\";}i:1513468800;a:2:{i:0;s:5:\"12:00\";i:1;s:6:\"17:00\r\";}i:1514160000;a:1:{i:0;s:2:\"-\r\";}i:1514246400;a:1:{i:0;s:1:\"-\";}}","sponsoring":"<p>Store Manager: Pascal Gut<\/p>\r\n<p>Special Sports:<\/p>\r\n<p><img src=\"http:\/\/athleticum.ch\/media\/wysiwyg\/Layout_Spezialsortiment-713.png\" alt=\"\" width=\"220\" height=\"55\" \/><\/p>","latitude":"47.493481","longitude":"8.756789","created_time":"2013-09-07 14:45:57","update_time":"2017-03-20 09:16:12","interior_image":"","google_business_photos":null,"url":"http:\/\/www.athleticum.ch\/de\/storefinder\/index\/details\/id\/17\/"});                                            
+StoreFinder.stores.push({"id":"29","erp_id":"727","status":"1","courier_route":"0","name":"Yverdon","email":"yverdon@athleticum.ch","process_email":"yverdon@athleticum.ch","phone":"024 423 39 30","fax":"","external_image":"","address1":"athleticum Sportmarkets SA","address2":"","street":"En Chamard 46A","city":"Montagny-pr\u00e8s-Yverdon","zipcode":"1442","direction":null,"open_hour":"a:4:{s:2:\"MO\";a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"19:00\r\";}s:5:\"DI-DO\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}s:2:\"FR\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"21:00\r\";}s:2:\"SA\";a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"17:00\r\";}}","spez_open_hour":"a:17:{i:1492128000;a:1:{i:0;s:2:\"-\r\";}i:1492387200;a:1:{i:0;s:2:\"-\r\";}i:1492992000;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"19:00\r\";}i:1493596800;a:2:{i:0;s:5:\"10:00\";i:1;s:6:\"19:00\r\";}i:1495670400;a:1:{i:0;s:2:\"-\r\";}i:1496620800;a:1:{i:0;s:2:\"-\r\";}i:1497484800;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1501545600;a:1:{i:0;s:2:\"-\r\";}i:1502755200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1504742400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1505692800;a:1:{i:0;s:2:\"-\r\";}i:1509494400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1512691200;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"21:00\r\";}i:1514073600;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"18:00\r\";}i:1514160000;a:1:{i:0;s:2:\"-\r\";}i:1514246400;a:2:{i:0;s:5:\"09:00\";i:1;s:6:\"19:00\r\";}i:1514678400;a:2:{i:0;s:5:\"09:00\";i:1;s:5:\"18:00\";}}","sponsoring":"<p>Store Manager: &nbsp; &nbsp;Michel Viey<\/p>\r\n<p>Parking: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Free Parking<\/p>\r\n<p>Special Sports:<\/p>\r\n<p><span style=\"font-size: 12px;\"><img src=\"http:\/\/athleticum.ch\/media\/wysiwyg\/Layout_Spezialsortiment-727.png\" alt=\"\" width=\"220\" height=\"110\" \/><\/span><\/p>","latitude":"46.791415","longitude":"6.622444","created_time":"2013-09-07 14:58:44","update_time":"2017-03-20 10:11:06","interior_image":"","google_business_photos":null,"url":"http:\/\/www.athleticum.ch\/de\/storefinder\/index\/details\/id\/29\/"});                                            
+StoreFinder.stores.push({"id":"27","erp_id":"724","status":"1","courier_route":"0","name":"Z\u00fcrich","email":"zuerich@athleticum.ch","process_email":"zuerich@athleticum.ch","phone":"044 497 60 60","fax":"","external_image":"","address1":"athleticum Sportmarkets AG","address2":"","street":"Gessnerallee 3-5","city":"Z\u00fcrich","zipcode":"8001","direction":null,"open_hour":"a:2:{s:5:\"MO-FR\";a:2:{i:0;s:5:\"09:30\";i:1;s:6:\"20:00\r\";}s:2:\"SA\";a:2:{i:0;s:5:\"09:30\";i:1;s:6:\"18:30\r\";}}","spez_open_hour":"a:18:{i:1492128000;a:1:{i:0;s:2:\"-\r\";}i:1492387200;a:1:{i:0;s:2:\"-\r\";}i:1492992000;a:1:{i:0;s:2:\"-\r\";}i:1493596800;a:1:{i:0;s:2:\"-\r\";}i:1495670400;a:1:{i:0;s:2:\"-\r\";}i:1496620800;a:1:{i:0;s:2:\"-\r\";}i:1497484800;a:2:{i:0;s:5:\"09:30\";i:1;s:6:\"20:00\r\";}i:1501545600;a:1:{i:0;s:2:\"-\r\";}i:1502755200;a:2:{i:0;s:5:\"09:30\";i:1;s:6:\"20:00\r\";}i:1504742400;a:2:{i:0;s:5:\"09:30\";i:1;s:6:\"20:00\r\";}i:1505692800;a:2:{i:0;s:5:\"09:30\";i:1;s:6:\"20:00\r\";}i:1509494400;a:2:{i:0;s:5:\"09:30\";i:1;s:6:\"20:00\r\";}i:1511654400;a:2:{i:0;s:5:\"11:00\";i:1;s:6:\"18:00\r\";}i:1512259200;a:2:{i:0;s:5:\"11:00\";i:1;s:6:\"18:00\r\";}i:1512691200;a:2:{i:0;s:5:\"09:30\";i:1;s:6:\"20:00\r\";}i:1513468800;a:2:{i:0;s:5:\"11:00\";i:1;s:6:\"18:00\r\";}i:1514160000;a:1:{i:0;s:2:\"-\r\";}i:1514246400;a:1:{i:0;s:1:\"-\";}}","sponsoring":"<p>Store Manager: Patric Thomet<\/p>\r\n<p>Special Sports:<\/p>\r\n<p><img src=\"http:\/\/athleticum.ch\/media\/wysiwyg\/Layout_Spezialsortiment-724.png\" alt=\"\" width=\"220\" height=\"55\" \/><\/p>","latitude":"47.373232","longitude":"8.532905","created_time":"2013-09-07 14:57:01","update_time":"2017-03-20 09:58:37","interior_image":"","google_business_photos":null,"url":"http:\/\/www.athleticum.ch\/de\/storefinder\/index\/details\/id\/27\/"});          
+    </script>
+
+	<script type="text/javascript">
+    jQuery(document).ready(function() {
+
+                    StoreFinder.location = [];
+                StoreFinder.details = "Details";
+        StoreFinder.icon    = 'http://www.athleticum.ch/skin/frontend/enterprise/athleticum/images/gmap_marker.png';
+        StoreFinder.shadow  = 'http://www.athleticum.ch/skin/frontend/enterprise/athleticum/images/gmap_marker_shadow.png';
+
+        StoreFinder.addClickEvents();
+
+        StoreFinder.initialize(StoreFinder.stores);
+
+        jQuery("#storefinder_form .button").click(function()
+        {
+            StoreFinder.findStores();
+        })
+
+        jQuery("#storefinder_form").submit(function()
+        {
+            StoreFinder.findStores();
+
+            return false;
+        })
+    });
+	</script>
+      
+  </body>
+</html>
+
